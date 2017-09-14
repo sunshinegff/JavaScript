@@ -184,7 +184,7 @@ function getsiblings(ele) {
 }
 ```
 
-第三段:
+第三段: getScroll
 
 ```JavaScript
 function getScroll() {
@@ -195,7 +195,7 @@ left:window.pageXOffset||document.body.scrollLeft||document.documentElement.scro
 }
 ```
 
-第四段:
+第四段: offset
 
 引入:
 
@@ -221,7 +221,7 @@ function getStyle(element,attr) {
 };
 ```
 
-第五段:
+第五段: window.event||e
 
 ```JavaScript
 //谷歌和火狐都支持 事件参数对象---e,IE8不支持.IE8没有这个参数.
@@ -230,7 +230,7 @@ function getStyle(element,attr) {
 e=window.event||e;
 ```
 
-第六段:
+第六段: client
 
 ```JavaScript
 //e.clientX和e.clientY获取的是鼠标针对可视区的横纵坐标
@@ -410,3 +410,4 @@ e.type=====>获取的是当前触发该事件的事件类型(事件名字.没有
 ```JavaScript
 //html5中的标签想要在IE8中支持,先创建元素,设置css的display:block
 ```
+
